@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TimerApp">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="4" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="757" height="430"/>
+    </constraints>
+    <properties>
+      <background color="-16277249"/>
+      <preferredSize width="500" height="400"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b89ba" binding="panel1" layout-manager="GridLayoutManager" row-count="2" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="480" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15663187"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ce9a0" class="javax.swing.JRadioButton" binding="onTimeButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <text value="on time:"/>
+            </properties>
+          </component>
+          <component id="bdfb9" class="javax.swing.JRadioButton" binding="countdownButton">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="35"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <text value="countdown (sec):"/>
+            </properties>
+          </component>
+          <component id="d0f4a" class="javax.swing.JTextField" binding="countdownTextField">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+            </properties>
+          </component>
+          <component id="55f2a" class="javax.swing.JFormattedTextField" binding="onTimeFormattedTextField">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5273b" binding="panel2" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="60"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15663187"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d262" class="javax.swing.JButton" binding="chooseColorButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <text value="Choose color"/>
+            </properties>
+          </component>
+          <component id="6c6cb" class="javax.swing.JLabel" binding="colorLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="70" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Arial Black" size="14" style="0"/>
+              <foreground color="-5043201"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="dcf7f" binding="panel3" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-15663187"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8b92d" class="javax.swing.JLabel" binding="speedLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="40" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <text value="speed:"/>
+            </properties>
+          </component>
+          <component id="26996" class="javax.swing.JComboBox" binding="speedComboBox">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="20" height="10"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <model>
+                <item value="1"/>
+                <item value="2"/>
+                <item value="3"/>
+                <item value="4"/>
+                <item value="5"/>
+              </model>
+              <requestFocusEnabled value="false"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="e9147" binding="panel4" layout-manager="GridLayoutManager" row-count="1" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="300" height="70"/>
+          </grid>
+        </constraints>
+        <properties>
+          <autoscrolls value="false"/>
+          <background color="-15663187"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a7761" class="javax.swing.JButton" binding="startCountdownButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="200" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <text value="Start Countdown"/>
+            </properties>
+          </component>
+          <component id="f183" class="javax.swing.JButton" binding="stopButton">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="50" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <foreground color="-5043201"/>
+              <hideActionText value="false"/>
+              <text value="Stop"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup1">
+      <member id="ce9a0"/>
+      <member id="bdfb9"/>
+    </group>
+  </buttonGroups>
+</form>
